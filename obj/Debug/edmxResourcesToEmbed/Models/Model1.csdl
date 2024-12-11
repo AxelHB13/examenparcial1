@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="masterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Order_Details">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Quantity" Type="Int16" Nullable="false" />
+    <Property Name="Discount" Type="Single" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pasajeros">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NumViajes" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Viajes">
+    <Key>
+      <PropertyRef Name="idConsultas" />
+    </Key>
+    <Property Name="idConsultas" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="3" />
+    <Property Name="idmedico" Type="Int32" />
+    <Property Name="Paciente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="totalconsulta" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="masterEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Categories" />
+    <EntitySet Name="Order_Details" EntityType="Self.Order_Details" />
+    <EntitySet Name="pasajeros" EntityType="Self.pasajeros" />
+    <EntitySet Name="Viajes" EntityType="Self.Viajes" />
+  </EntityContainer>
+</Schema>

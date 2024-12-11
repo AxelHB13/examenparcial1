@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\controllers\\order_detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:controllers\\order_detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\controllers\\pasajeroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:controllers\\pasajeroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\categoria\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\categoria\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\order_details\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\order_details\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\pasajeros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\pasajeros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\order_details\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\order_details\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\categoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\categoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\pasajeros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\pasajeros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EXAMENPARCIAL_WEB||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\order_details\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\order_details\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\pasajeros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\pasajeros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\pasajeros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\pasajeros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\order_details\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\order_details\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\order_details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\order_details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\pasajeros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\pasajeros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A481E4-E8C8-48B4-AC3E-CCD4432B66B5}|EXAMENPARCIAL_WEB.csproj|c:\\users\\axel\\source\\repos\\examenparcial_web\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EXAMENPARCIAL_WEB",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\EXAMENPARCIAL_WEB.csproj",
+              "RelativeDocumentMoniker": "EXAMENPARCIAL_WEB.csproj",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\EXAMENPARCIAL_WEB.csproj",
+              "RelativeToolTip": "EXAMENPARCIAL_WEB.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-11T02:05:59.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order_details\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Details.cshtml",
+              "RelativeToolTip": "Views\\Order_details\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:59:16.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order_details\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Order_details\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:58:52.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:56:01.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:41:05.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\pasajeros\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Delete.cshtml",
+              "RelativeToolTip": "Views\\pasajeros\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:38:22.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\pasajeros\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Edit.cshtml",
+              "RelativeToolTip": "Views\\pasajeros\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:38:01.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\pasajeros\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Create.cshtml",
+              "RelativeToolTip": "Views\\pasajeros\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:37:38.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\pasajeros\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Details.cshtml",
+              "RelativeToolTip": "Views\\pasajeros\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:36:51.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\pasajeros\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\pasajeros\\Index.cshtml",
+              "RelativeToolTip": "Views\\pasajeros\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:35:31.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pasajerosController.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\pasajerosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\pasajerosController.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\pasajerosController.cs",
+              "RelativeToolTip": "Controllers\\pasajerosController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:34:15.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:29:32.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:29:31.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:27:58.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categoria\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Categoria\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:18:00.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categoria\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Details.cshtml",
+              "RelativeToolTip": "Views\\Categoria\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:14:27.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categoria\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Categoria\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:03:04.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categoria\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Create.cshtml",
+              "RelativeToolTip": "Views\\Categoria\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:00:14.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:58:21.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAI0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:56:01.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order_details\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Order_details\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:53:10.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order_details\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Create.cshtml",
+              "RelativeToolTip": "Views\\Order_details\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:52:23.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order_details\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Views\\Order_details\\Index.cshtml",
+              "RelativeToolTip": "Views\\Order_details\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:51:46.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order_detailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\Order_detailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Order_detailsController.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Controllers\\Order_detailsController.cs",
+              "RelativeToolTip": "Controllers\\Order_detailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:36:40.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Models\\Categories.cs",
+              "RelativeDocumentMoniker": "Models\\Categories.cs",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Models\\Categories.cs",
+              "RelativeToolTip": "Models\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:35:06.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Axel\\source\\repos\\EXAMENPARCIAL_WEB\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-11T00:31:25.943Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

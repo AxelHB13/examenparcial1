@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+<center>
+    <h1>Gestión de Pasajeros,Categorías y Ordenes</h1>
+    <img src=https://www.lecoindesentrepreneurs.fr/wp-content/uploads/2021/03/Automatisation-gestion-dentreprise.png alt="Pasajeros" class="img-fluid" style=margin:20px/>
+    <center>
+        <div class="row">
+            <div class="col-md-6">
+                <img src=https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2018/05/04/15254424415702.jpg alt="Pasajeros" class="img-fluid" />
+                <h2>Gestión de Pasajeros</h2>
+                <p>Administra la información de los pasajeros.</p>
+                <a href="@Url.Action("Index", "Pasajeros")" class="btn btn-primary">Ir a Pasajeros</a>
+            </div>
+            <div class="col-md-6">
+                <img src=https://www.artechdigital.net/wp-content/uploads/2018/03/categor%C3%ADas-y-las-etiquetas.jpg alt="Categorías" class="img-fluid" />
+                <h2>Gestión de Categorías</h2>
+                <p>Administra las categorías y sus detalles.</p>
+                <a href="@Url.Action("Index", "Categoria")" class="btn btn-primary">Ir a Categorías</a>
+            </div>
+            <div class="col-md-6">
+                <img src=https://vtiger-website.cdn.prismic.io/vtiger-website/ccc84f7d-5852-46e9-ae6b-5b851add3055_Hero+Image+Inventory.svg alt="Order Details" class="img-fluid" />
+                <h2>Gestión de Órdenes</h2>
+                <p>Administra los detalles de las órdenes, productos, precios y descuentos.</p>
+                <a href="@Url.Action("Index", "Order_details")" class="btn btn-primary">Ir a Órdenes</a>
+            </div>
+
+        </div>
+</main>

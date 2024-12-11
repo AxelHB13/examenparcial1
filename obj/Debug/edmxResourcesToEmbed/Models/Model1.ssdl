@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="masterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="Picture" Type="image" />
+  </EntityType>
+  <EntityType Name="Order Details">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+    <Property Name="Quantity" Type="smallint" Nullable="false" />
+    <Property Name="Discount" Type="real" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pasajeros">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="NumViajes" Type="int" />
+  </EntityType>
+  <EntityType Name="Viajes">
+    <Key>
+      <PropertyRef Name="idConsultas" />
+    </Key>
+    <Property Name="idConsultas" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="idmedico" Type="int" />
+    <Property Name="Paciente" Type="varchar" MaxLength="50" />
+    <Property Name="totalconsulta" Type="int" />
+  </EntityType>
+  <EntityContainer Name="masterModelStoreContainer">
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order Details" EntityType="Self.Order Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pasajeros" EntityType="Self.pasajeros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Viajes" EntityType="Self.Viajes" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

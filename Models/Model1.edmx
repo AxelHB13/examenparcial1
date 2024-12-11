@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="masterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Description" Type="ntext" />
+          <Property Name="Picture" Type="image" />
+        </EntityType>
+        <EntityType Name="Order Details">
+          <Key>
+            <PropertyRef Name="OrderID" />
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="OrderID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="UnitPrice" Type="money" Nullable="false" />
+          <Property Name="Quantity" Type="smallint" Nullable="false" />
+          <Property Name="Discount" Type="real" Nullable="false" />
+        </EntityType>
+        <EntityType Name="pasajeros">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="NumViajes" Type="int" />
+        </EntityType>
+        <EntityType Name="Viajes">
+          <Key>
+            <PropertyRef Name="idConsultas" />
+          </Key>
+          <Property Name="idConsultas" Type="int" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" />
+          <Property Name="idmedico" Type="int" />
+          <Property Name="Paciente" Type="varchar" MaxLength="50" />
+          <Property Name="totalconsulta" Type="int" />
+        </EntityType>
+        <EntityContainer Name="masterModelStoreContainer">
+          <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Order Details" EntityType="Self.Order Details" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pasajeros" EntityType="Self.pasajeros" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Viajes" EntityType="Self.Viajes" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="masterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Order_Details">
+          <Key>
+            <PropertyRef Name="OrderID" />
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="OrderID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="Quantity" Type="Int16" Nullable="false" />
+          <Property Name="Discount" Type="Single" Nullable="false" />
+        </EntityType>
+        <EntityType Name="pasajeros">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NumViajes" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Viajes">
+          <Key>
+            <PropertyRef Name="idConsultas" />
+          </Key>
+          <Property Name="idConsultas" Type="Int32" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="3" />
+          <Property Name="idmedico" Type="Int32" />
+          <Property Name="Paciente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="totalconsulta" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="masterEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Categories" EntityType="Self.Categories" />
+          <EntitySet Name="Order_Details" EntityType="Self.Order_Details" />
+          <EntitySet Name="pasajeros" EntityType="Self.pasajeros" />
+          <EntitySet Name="Viajes" EntityType="Self.Viajes" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="masterModelStoreContainer" CdmEntityContainer="masterEntities">
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="masterModel.Categories">
+              <MappingFragment StoreEntitySet="Categories">
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Order_Details">
+            <EntityTypeMapping TypeName="masterModel.Order_Details">
+              <MappingFragment StoreEntitySet="Order Details">
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pasajeros">
+            <EntityTypeMapping TypeName="masterModel.pasajeros">
+              <MappingFragment StoreEntitySet="pasajeros">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="NumViajes" ColumnName="NumViajes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Viajes">
+            <EntityTypeMapping TypeName="masterModel.Viajes">
+              <MappingFragment StoreEntitySet="Viajes">
+                <ScalarProperty Name="idConsultas" ColumnName="idConsultas" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="idmedico" ColumnName="idmedico" />
+                <ScalarProperty Name="Paciente" ColumnName="Paciente" />
+                <ScalarProperty Name="totalconsulta" ColumnName="totalconsulta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

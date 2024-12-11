@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="masterModelStoreContainer" CdmEntityContainer="masterEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="masterModel.Categories">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_Details">
+      <EntityTypeMapping TypeName="masterModel.Order_Details">
+        <MappingFragment StoreEntitySet="Order Details">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pasajeros">
+      <EntityTypeMapping TypeName="masterModel.pasajeros">
+        <MappingFragment StoreEntitySet="pasajeros">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="NumViajes" ColumnName="NumViajes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Viajes">
+      <EntityTypeMapping TypeName="masterModel.Viajes">
+        <MappingFragment StoreEntitySet="Viajes">
+          <ScalarProperty Name="idConsultas" ColumnName="idConsultas" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="idmedico" ColumnName="idmedico" />
+          <ScalarProperty Name="Paciente" ColumnName="Paciente" />
+          <ScalarProperty Name="totalconsulta" ColumnName="totalconsulta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
